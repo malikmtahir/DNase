@@ -14,34 +14,30 @@ Framework of our proposed models: CNN Model, CNN-GRU Fusion Model, CNN-Kmer Fusi
 <p align="center">
 <img src="https://github.com/malikmtahir/DNase/blob/main/architecture.jpg " width="500" height="800">
 <p align="center">
-System model of the ensemble learning framework highlighting data, feature fusion, and model spaces
+System model of the proposed framework highlighting data, feature fusion, and model spaces
 
 ## Feature Visualization
-To visualize the features, we use **t-SNE** to reduce the dimensionality of the **CNN features, k-mer features, k-mer features via Dense layers, and Dense layer features** from the training set. This will allow us to see how the model's learned representations cluster and separate different data points in a 2D space, helping to interpret the feature learning process.
+To visualize the features, we use **t-SNE** to reduce the dimensionality of the **CNN features, GRU features, k-mer features, and Dense layer features** from the training set. This will allow us to see how the model's learned representations cluster and separate different data points in a 2D space, helping to interpret the feature learning process.
 
 <p align="center">
 <img src="https://github.com/malikmtahir/DNase/blob/main/t-sne.jpg" width="550" height="500">  <p align="right">
 
 
 ### Comparative Analyses against State-of-the-art Models
-This comparative study evaluates the developed ensemble model against the cutting-edge model **m6A-TCPred [1]** focusing on the m6A sites identification problem.
+This comparative study evaluates the developed ensemble model against the cutting-edge model **Jin et al., [1]** focusing on theDNase I hypersensitive sites in the human genome problem.
   
 ### Statistical Analyses
-The statistical analysis is based on the **standard error method** that computes the **mean, standard deviation, critical value** (i.e., **z-score**), and **95% confidence interval** for a sample of **accuracy, sensitivity, specificity, MCC,** and **AUC-ROC**. These analyses aim to validate the quantitative results agains the **CNN** model.
+The statistical analysis is based on the **standard error method** that computes the **mean, standard deviation, critical value** (i.e., **z-score**), and **95% confidence interval** for a sample of **accuracy, sensitivity, specificity, MCC,** and **AUC-ROC**. These analyses aim to validate the quantitative results against the all proposed models.
 
   
 # References 
 The following references are utlized in the comparative analyses.
 
-[1]. Tu, G., Wang, X., Xia, R. and Song, B., 2024. m6A-TCPred: a web server to predict tissue-conserved human m6A sites using machine learning approach. BMC bioinformatics, 25(1), p.127.
-
+[1]. Jin, Y.T., Tan, Y., Gan, Z.H., Hao, Y.D., Wang, T.Y., Lin, H. and Tang, B., 2024. Identification of DNase I hypersensitive sites in the human genome by multiple sequence descriptors. Methods, 229, pp.125-132.
 
 # Contact details
-## Muhammad Tahir (m.tahir-ra@uwinnipeg.ca)
+## Muhammad Tahir (m.tahir@umanitoba.ca, muhammadtahir@awkum.edu.pk)
 ### Affiliation:
-1. **Department of Applied Computer Science, The University of Winnipeg, 515 Portage Ave, R3B 2E9, MB, Canada**
+1. **Department of Electrical and Computer Engineering, University of Manitoba, Winnipeg, Manitoba, R3T5V6, Canada**
 2. **Department of Computer Science, Abdul Wali Khan University, Mardan, Mardan, 23200, Pakistan**
 
-## Qian Liu (qi.liu@uwinnipeg.ca)
-### Affiliation:
-1. **Department of Applied Computer Science, The University of Winnipeg, 515 Portage Ave, R3B 2E9, MB, Canada**
