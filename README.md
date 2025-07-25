@@ -2,6 +2,10 @@
 This repository contains resources related to the research titled **A Deep Learning Model Leveraging Semantic Features Fusion for DNase I Hypersensitive Sites Identification in the Human Genome** In this study, we propose various computational models, namely: CNN Model, CNN-GRU Fusion Model, CNN-Kmer Fusion Model, CNN-GRU-Kmer Fusion model, to overcome the challenges associated with DHSs prediction. In CNN Model based on a simple 1-dimensional CNN. In CNN-GRU Fusion Model, based on simple 1-dimensional CNN and GRU, then fused the feature maps of CNN and GRU. In CNN-Kmer Fusion Model, based on simple 1-dimensional CNN and Kmer features, first we input the kmer features to dense layer, the output of dense layer are fused with CNN features. In CNN-GRU-Kmer Fusion Model, based on simple 1-dimensional CNN, GRU and Kmer features, first we input the kmer features to dense layer, the output of dense layer is fused with CNN features and GRU features, and fed to dense layer with sigmoid function for prediction.
 
 ## Proposed Framework
+## Proposed Framework
+### Benchmark Dataset
+This dataset consist of 280 DHS sequences and 737 non-DHS sequences [1], which could be freely downloaded from https://noble.gs.washington.edu/proj/hs/
+
 ### Feature Fusion Space
 Feature extraction is a crucial step in designing and extracting information patterns from biological sequences. In this work, we employed various feature encoding methods:
 -	**k-mer encoding**
