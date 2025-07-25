@@ -12,7 +12,7 @@ Feature extraction is a crucial step in designing and extracting information pat
 Framework of our proposed models: CNN Model, CNN-GRU Fusion Model, CNN-Kmer Fusion Model, CNN-GRU-Kmer Fusion Model
 
 <p align="center">
-<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/Frame_work.jpg" width="500" height="800">
+<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/Figures/architecture.jpg" width="500" height="800">
 
 <p align="center">
 System model of the ensemble learning framework highlighting data, feature fusion, and model spaces
