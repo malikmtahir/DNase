@@ -12,8 +12,7 @@ Feature extraction is a crucial step in designing and extracting information pat
 Framework of our proposed models: CNN Model, CNN-GRU Fusion Model, CNN-Kmer Fusion Model, CNN-GRU-Kmer Fusion Model
 
 <p align="center">
-<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/architecture.jpg" width="500" height="800">
-
+<img src="https://github.com/malikmtahir/DNase/blob/main/architecture.jpg " width="500" height="800">
 <p align="center">
 System model of the ensemble learning framework highlighting data, feature fusion, and model spaces
 
@@ -21,7 +20,7 @@ System model of the ensemble learning framework highlighting data, feature fusio
 To visualize the features, we use **t-SNE** to reduce the dimensionality of the **CNN features, k-mer features, k-mer features via Dense layers, and Dense layer features** from the training set. This will allow us to see how the model's learned representations cluster and separate different data points in a 2D space, helping to interpret the feature learning process.
 
 <p align="center">
-<img src="https://github.com/malikmtahir/LOCO-m6A/blob/main/t-sne.jpg" width="550" height="500">  <p align="right">
+<img src="https://github.com/malikmtahir/DNase/blob/main/t-sne.jpg" width="550" height="500">  <p align="right">
 
 
 ### Comparative Analyses against State-of-the-art Models
